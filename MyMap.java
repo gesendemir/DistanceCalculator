@@ -106,8 +106,8 @@ class MyMap{
 		//Because here.com directly gives the distance between two points by calculating route according to vehicle type. 
 		
 		String s = "https://route.api.here.com/routing/7.2/calculateroute.json" + 
-				"?app_id=LqVBq2kLncuFdDyjhOQR"+ //APP ID from here.com
-				"&app_code=LiEzG8Xcf1psY7BpLC5cbg"; //APP Code from here.com
+				"?app_id= APPID FROM HERE.COM"+ //APP ID from here.com
+				"&app_code= APPCODE FROM HERE.COM"; //APP Code from here.com
 				s += "&waypoint0" + "=geo!"; //First point
 				s += a.getLatv() + "," + a.getLonv(); //Lattitude and Longtitude of First Point
 				s += "&waypoint1" + "=geo!";
